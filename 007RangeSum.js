@@ -13,3 +13,12 @@ function rangeSum(start, end) {
 }
 
 console.log(rangeSum(0, 3));
+
+function rangeArray(start, end) {
+    if (start === end) {
+        return [start];
+    }
+    return [start].concat(rangeArray(start + 1, end));
+}
+
+console.log(rangeArray(0, 30));
