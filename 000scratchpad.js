@@ -53,3 +53,20 @@
 // repeat(5, i => {labels.push(`Unit ${i + 1}`)});
 // console.log(labels);
 
+/*
+// Page 86 // 
+*/
+
+// // the function below is a pure function.
+// function greaterThan(n) {
+//     return m => m > n;
+// }
+
+// // the following line is a function expression. It is a function that is assigned to a variable.
+// let greaterThan10 = greaterThan(10);
+
+// // the following line is a function call. It calls the function assigned to the variable greaterThan10.
+// // the function call passes the argument 11 to the function.
+// // the function call returns true.
+// console.log(greaterThan10(11));
+
